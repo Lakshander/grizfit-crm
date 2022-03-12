@@ -13,7 +13,7 @@
                 <i class="fa fa-circle"></i>
             </li>
             <li>
-                <span>Fitsigma Tutorials</span>
+                <span>Grizfit Tutorials</span>
             </li>
         </ul>
         <!-- END PAGE BREADCRUMBS -->

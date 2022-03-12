@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'support@fitsigma.com'),
-        'name' => env('MAIL_FROM_NAME', 'Fitsigma Support'),
+        'address' => env('MAIL_FROM_ADDRESS', 'support@grizfit.com'),
+        'name' => env('MAIL_FROM_NAME', 'Grizfit Support'),
     ],
 
     /*

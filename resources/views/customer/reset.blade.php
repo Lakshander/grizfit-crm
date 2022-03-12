@@ -1,7 +1,7 @@
 @extends('layouts.customer.login')
 
 @section('title')
-    Fitsigma | Reset Password
+    Grizfit | Reset Password
 @endsection
 
 @section('content')

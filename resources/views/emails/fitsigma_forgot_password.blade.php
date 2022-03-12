@@ -10,7 +10,7 @@
     -->
     <meta name="viewport" content="width=device-width"/>
     <style type="text/css">
-        @import url('http://fonts.googleapis.com/css?family=Open+Sans');
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans');
     </style>
     <style type="text/css">
         /*********************************************************************
@@ -764,7 +764,7 @@
                                                 <table width="180px" class="four columns">
                                                     <tr>
                                                         <td class="vertical-middle" style="color: #fff">
-                                                            &copy; Fitsigma
+                                                            &copy; Grizfit
                                                         </td>
                                                     </tr>
                                                 </table>

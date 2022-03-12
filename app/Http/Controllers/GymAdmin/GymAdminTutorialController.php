@@ -9,7 +9,7 @@ class GymAdminTutorialController extends GymAdminBaseController
 {
 
     public function index() {
-        $this->data['title'] = "Fitsigma Tutorials";
+        $this->data['title'] = "Grizfit Tutorials";
         $this->data['tutorials'] = GymTutorial::all();
         return view('gym-admin.tutorial.index', $this->data);
     }

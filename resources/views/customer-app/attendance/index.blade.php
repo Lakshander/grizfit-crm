@@ -1,11 +1,11 @@
 @extends('layouts.customer-app.basic')
 
 @section('title')
-    Fitsigma | Customer Attendance
+    Grizfit | Customer Attendance
 @endsection
 
 @section('CSS')
-{!! HTML::style('fitsigma_customer/bower_components/calendar/dist/fullcalendar.css') !!}
+{!! HTML::style('grizfit_customer/bower_components/calendar/dist/fullcalendar.css') !!}
 @endsection
 
 @section('content')
@@ -33,9 +33,9 @@
 @endsection
 
 @section('JS')
-    {!! HTML::script('fitsigma_customer/bower_components/moment/moment.js') !!}
-    {!! HTML::script('fitsigma_customer/bower_components/calendar/dist/fullcalendar.min.js') !!}
-    {!! HTML::script('fitsigma_customer/bower_components/calendar/jquery-ui.min.js') !!}
+    {!! HTML::script('grizfit_customer/bower_components/moment/moment.js') !!}
+    {!! HTML::script('grizfit_customer/bower_components/calendar/dist/fullcalendar.min.js') !!}
+    {!! HTML::script('grizfit_customer/bower_components/calendar/jquery-ui.min.js') !!}
 <script>
     $('#calendar').fullCalendar({ //re-initialize the calendar
         defaultView: 'month', // change default view with available options from http://arshaw.com/fullcalendar/docs/views/Available_Views/

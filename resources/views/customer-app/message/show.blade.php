@@ -1,11 +1,11 @@
 @extends('layouts.customer-app.basic')
 
 @section('title')
-    Fitsigma | Customer Mail Detail
+    Grizfit | Customer Mail Detail
 @endsection
 
 @section('CSS')
-{!! HTML::style('fitsigma_customer/bower_components/html5-editor/bootstrap-wysihtml5.css') !!}
+{!! HTML::style('grizfit_customer/bower_components/html5-editor/bootstrap-wysihtml5.css') !!}
 <style>
     .padding-button {
         padding-left: 22px;
@@ -79,10 +79,10 @@
 @endsection
 
 @section('JS')
-{!! HTML::script('fitsigma_customer/js/chat.js') !!}
-{!! HTML::script('fitsigma_customer/js/jquery.slimscroll.js') !!}
-{!! HTML::script('fitsigma_customer/bower_components/html5-editor/wysihtml5-0.3.0.js') !!}
-{!! HTML::script('fitsigma_customer/bower_components/html5-editor/bootstrap-wysihtml5.js') !!}
+{!! HTML::script('grizfit_customer/js/chat.js') !!}
+{!! HTML::script('grizfit_customer/js/jquery.slimscroll.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/html5-editor/wysihtml5-0.3.0.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/html5-editor/bootstrap-wysihtml5.js') !!}
     <script>
         $(function () {
             $('.chat-list').animate({

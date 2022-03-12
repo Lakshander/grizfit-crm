@@ -30,27 +30,27 @@
 
     <title>@yield('title')</title>
     <!-- Bootstrap Core CSS -->
-    {!! HTML::style('fitsigma_customer/bootstrap/dist/css/bootstrap.min.css') !!}
-    {!! HTML::style('fitsigma_customer/bower_components/bootstrap-extension/css/bootstrap-extension.css') !!}
+    {!! HTML::style('grizfit_customer/bootstrap/dist/css/bootstrap.min.css') !!}
+    {!! HTML::style('grizfit_customer/bower_components/bootstrap-extension/css/bootstrap-extension.css') !!}
     <!-- animation CSS -->
     {!! HTML::style('customer/css/animate.css') !!}
     {!! HTML::style("admin/global/plugins/font-awesome/css/font-awesome.min.css") !!}
     {!! HTML::style("admin/global/css/font-awesome-animation.min.css") !!}
     <!-- Custom CSS -->
-    {!! HTML::style('fitsigma_customer/css/style.css') !!}
+    {!! HTML::style('grizfit_customer/css/style.css') !!}
     <!-- color CSS -->
-    {!! HTML::style('fitsigma_customer/css/colors/default.css') !!}
+    {!! HTML::style('grizfit_customer/css/colors/default.css') !!}
     {!! HTML::style('admin/global/plugins/froiden-helper/helper.css') !!}
     <style>
         .login-register {
-            background:url({{ asset('fitsigma_customer/images/login-register.jpg') }}) center center/cover no-repeat!important;
+            background:url({{ asset('grizfit_customer/images/login-register.jpg') }}) center center/cover no-repeat!important;
             height:100%;
             position:fixed
         }
         .error-box {
             height:100%;
             position:fixed;
-            background:url({{ asset('fitsigma_customer/images/error-bg.jpg') }}) center center no-repeat #fff!important;
+            background:url({{ asset('grizfit_customer/images/error-bg.jpg') }}) center center no-repeat #fff!important;
             width:100%
         }
     </style>
@@ -72,21 +72,21 @@
 </div>
 @yield('content')
 <!-- jQuery -->
-{!! HTML::script('fitsigma_customer/bower_components/jquery/dist/jquery.min.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/jquery/dist/jquery.min.js') !!}
 <!-- Bootstrap Core JavaScript -->
-{!! HTML::script('fitsigma_customer/bootstrap/dist/js/tether.min.js') !!}
-{!! HTML::script('fitsigma_customer/bootstrap/dist/js/bootstrap.min.js') !!}
-{!! HTML::script('fitsigma_customer/bower_components/bootstrap-extension/js/bootstrap-extension.min.js') !!}
+{!! HTML::script('grizfit_customer/bootstrap/dist/js/tether.min.js') !!}
+{!! HTML::script('grizfit_customer/bootstrap/dist/js/bootstrap.min.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/bootstrap-extension/js/bootstrap-extension.min.js') !!}
 <!-- Menu Plugin JavaScript -->
-{!! HTML::script('fitsigma_customer/bower_components/sidebar-nav/dist/sidebar-nav.min.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/sidebar-nav/dist/sidebar-nav.min.js') !!}
 <!--slimscroll JavaScript -->
-{!! HTML::script('fitsigma_customer/js/jquery.slimscroll.js') !!}
+{!! HTML::script('grizfit_customer/js/jquery.slimscroll.js') !!}
 <!--Wave Effects -->
-{!! HTML::script('fitsigma_customer/js/waves.js') !!}
+{!! HTML::script('grizfit_customer/js/waves.js') !!}
 <!-- Custom Theme JavaScript -->
-{!! HTML::script('fitsigma_customer/js/custom.min.js') !!}
+{!! HTML::script('grizfit_customer/js/custom.min.js') !!}
 <!--Style Switcher -->
-{!! HTML::script('fitsigma_customer/bower_components/styleswitcher/jQuery.style.switcher.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/styleswitcher/jQuery.style.switcher.js') !!}
 {!! HTML::script("admin/global/plugins/froiden-helper/helper.js") !!}
 @yield('JS')
 </body>

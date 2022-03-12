@@ -1,13 +1,13 @@
 @extends('layouts.customer-app.basic')
 
 @section('title')
-    Fitsigma | Add Subscription
+    Grizfit | Add Subscription
 @endsection
 
 @section('CSS')
-{!! HTML::style('fitsigma_customer/bower_components/bootstrap-select/bootstrap-select.min.css') !!}
-{!! HTML::style('fitsigma_customer/bower_components/custom-select/custom-select.css') !!}
-{!! HTML::style('fitsigma_customer/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css') !!}
+{!! HTML::style('grizfit_customer/bower_components/bootstrap-select/bootstrap-select.min.css') !!}
+{!! HTML::style('grizfit_customer/bower_components/custom-select/custom-select.css') !!}
+{!! HTML::style('grizfit_customer/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css') !!}
     <style>
         .text-center {
             text-align: center;
@@ -84,9 +84,9 @@
 @endsection
 
 @section('JS')
-{!! HTML::script('fitsigma_customer/bower_components/bootstrap-select/bootstrap-select.min.js') !!}
-{!! HTML::script('fitsigma_customer/bower_components/custom-select/custom-select.min.js') !!}
-{!! HTML::script('fitsigma_customer/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/bootstrap-select/bootstrap-select.min.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/custom-select/custom-select.min.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js') !!}
 <script>
     $(function () {
         $(".select2").select2();

@@ -242,13 +242,13 @@
                 <p> {{ ($gymSettings != '' && $gymSettings->about != '')? $gymSettings->about: '' }} </p>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 footer-block">
-                <h2>Video Tutorials</h2>
+                <h2>Contact</h2>
                 <div class="subscribe-form">
-                    <a href="{{ route('gym-admin.tutorial.index') }}" class="btn  btn-lg" >Watch Tutorial <i class="fa fa-youtube-play"></i></a>
+                    <a href="tel:+918689034255" class="btn  btn-lg" ><i class="fa fa-phone"></i> Call Now</a>
                 </div>
             </div>
             <div class="col-md-2 col-sm-6 col-xs-12 footer-block">
-                <h2>Follow Us On</h2>
+                <!-- <h2>Follow Us On</h2>
                 <ul class="social-icons">
                     <li>
                         <a href="{{ ($gymSettings != '' && $gymSettings->fb_url != '')? $gymSettings->fb_url: 'javascript:;' }}" target="_blank" data-original-title="facebook" class="facebook"></a>
@@ -262,7 +262,11 @@
                     <li>
                         <a href="{{ ($gymSettings != '' && $gymSettings->youtube_url != '')? $gymSettings->youtube_url: 'javascript:;' }}" target="_blank" data-original-title="youtube" class="youtube"></a>
                     </li>
-                </ul>
+                </ul> -->
+                <h2>Whatsapp Us Now</h2>
+                <div class="subscribe-form">
+                    <a href="https://wa.me/+918689034255" class="btn btn-lg" ><i class="fa fa-whatsapp"></i> Whatsapp</a>
+                </div>
             </div>
             <!-- <div class="col-md-2">
                 <h2>Download App</h2>

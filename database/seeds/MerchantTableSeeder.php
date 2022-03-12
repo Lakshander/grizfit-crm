@@ -29,21 +29,21 @@ class MerchantTableSeeder extends Seeder
             'password' => \Illuminate\Support\Facades\Hash::make('123456'),
             'first_name' => 'Admin',
             'mobile' => '100',
-            'email' => 'admin@froiden.com',
+            'email' => 'admin@grizfit.com',
             'is_admin' => 1,
         ]);
 
         Common::create([
-            'title' => 'Froiden',
-            'address' => 'Malviya Nagar',
+            'title' => 'Grizfit',
+            'address' => 'Delhi',
             'owner_incharge_name' => 'admin',
             'phone' => '100',
-            'email' => 'admin@froiden.com',
+            'email' => 'admin@grizfit.com',
 
         ]);
 
-        $merchant = Merchant::where('email','=','admin@froiden.com')->first();
-        $detail = Common::where('email','=','admin@froiden.com')->first();
+        $merchant = Merchant::where('email','=','admin@grizfit.com')->first();
+        $detail = Common::where('email','=','admin@grizfit.com')->first();
         $category = Category::first();
         $currency = Currency::where('acronym', '=', 'USD')->first();
         $permissions = GymMerchantPermission::all();
@@ -70,7 +70,7 @@ class MerchantTableSeeder extends Seeder
             'currency_id' => $currency->id,
             'mail_driver' => 'mail',
             'about' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-            'contact_mail' => 'abc@example.com',
+            'contact_mail' => 'support@grizfit.com',
         ]);
 
         GymMerchantRole::create([

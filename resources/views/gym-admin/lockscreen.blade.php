@@ -48,7 +48,7 @@
                 {!! Form::close() !!}
             </div>
         </div>
-        <div class="page-footer-custom"> {{ \Carbon\Carbon::now('Asia/Calcutta')->year }} &copy; Fitsigma </div>
+        <div class="page-footer-custom"> {{ \Carbon\Carbon::now('Asia/Calcutta')->year }} &copy; Grizfit </div>
     </div>
 
 

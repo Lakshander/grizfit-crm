@@ -20,7 +20,7 @@ class CustomerDashboardController extends CustomerBaseController
      */
     public function index()
     {
-        $this->data['title'] = 'Fitsigma | Customer Dashboard';
+        $this->data['title'] = 'Grizfit | Customer Dashboard';
         $this->data['dashboardMenu'] = 'active';
         $this->data['totalAmountPaid'] = GymMembershipPayment::leftJoin('gym_client_purchases', 'gym_client_purchases.id', '=', 'purchase_id')
             ->leftJoin('gym_clients', 'gym_clients.id', '=', 'gym_membership_payments.user_id')

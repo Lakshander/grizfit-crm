@@ -358,7 +358,7 @@
             var options = {
                 "key": "{{ env('RAZORPAY_KEY') }}",
                 "amount": amount, //in paise
-                "name": "FITSIGMA",
+                "name": "GRIZFIT",
                 "description": "SMS CREDITS",
                 "image": "{{ asset('ace/images/icon.png') }}",
                 "handler": function (response) {

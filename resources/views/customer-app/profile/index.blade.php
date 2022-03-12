@@ -1,11 +1,11 @@
 @extends('layouts.customer-app.basic')
 
 @section('title')
-    Fitsigma | Customer Profile
+    Grizfit | Customer Profile
 @endsection
 
 @section('CSS')
-    {!! HTML::style('fitsigma_customer/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css') !!}
+    {!! HTML::style('grizfit_customer/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.css') !!}
     {!! HTML::style('admin/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css') !!}
     {!! HTML::style('css/cropper.css')!!}
     <style>
@@ -281,7 +281,7 @@
 @endsection
 
 @section('JS')
-    {!! HTML::script('fitsigma_customer/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js') !!}
+    {!! HTML::script('grizfit_customer/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js') !!}
     {!! HTML::script('admin/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js') !!}
     {!! HTML::script('js/cropper.js') !!}
     {!! HTML::script('admin/webcam/webcam.js') !!}

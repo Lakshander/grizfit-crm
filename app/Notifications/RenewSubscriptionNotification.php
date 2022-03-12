@@ -45,7 +45,7 @@ class RenewSubscriptionNotification extends Notification
         $url = url('/customer');
 
         return (new MailMessage)
-            ->subject( 'Fitsigma Customer App - Subscription Notification')
+            ->subject( 'Grizfit Customer App - Subscription Notification')
             ->greeting('Hello '.ucwords($notifiable->name).'!')
             ->line('Your subscription is renewed successfully by admin.')
             ->action('Login To Dashboard', $url)

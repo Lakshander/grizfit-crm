@@ -1,11 +1,11 @@
 @extends('layouts.customer-app.basic')
 
 @section('title')
-    Fitsigma | Customer Dashboard
+    Grizfit | Customer Dashboard
 @endsection
 
 @section('CSS')
-    {!! HTML::style('fitsigma_customer/bower_components/morrisjs/morris.css') !!}
+    {!! HTML::style('grizfit_customer/bower_components/morrisjs/morris.css') !!}
 @endsection
 
 @section('content')
@@ -143,8 +143,8 @@
 @endsection
 
 @section('JS')
-    {!! HTML::script('fitsigma_customer/bower_components/raphael/raphael-min.js') !!}
-    {!! HTML::script('fitsigma_customer/bower_components/morrisjs/morris.js') !!}
+    {!! HTML::script('grizfit_customer/bower_components/raphael/raphael-min.js') !!}
+    {!! HTML::script('grizfit_customer/bower_components/morrisjs/morris.js') !!}
 
     <script>
         var months = [];

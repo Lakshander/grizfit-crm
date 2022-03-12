@@ -6,6 +6,9 @@
  * http://revaxarts.com
  *
  */
+
+@import url('https://rsms.me/inter/inter.css');
+
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
 	margin:0;
 	padding:0;
@@ -19,7 +22,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,abbr,ac
 }
 html { 
 	font-size:101%;
-	font-family:Arial,verdana,arial,sans-serif;
+	font-family:'Inter',verdana,arial,sans-serif;
 	font-size:12px;
 	-webkit-text-size-adjust:none;
 	color:#6F6F6F;

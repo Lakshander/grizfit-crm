@@ -24,7 +24,7 @@ class CustomerManageSubscriptionController extends CustomerBaseController
      */
     public function index()
     {
-        $this->data['title'] = 'Fitsigma | Subscription';
+        $this->data['title'] = 'Grizfit | Subscription';
         $this->data['subscriptionMenu'] = 'active';
 
         return view('customer-app.manage-subscription.index', $this->data);

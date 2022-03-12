@@ -30,7 +30,7 @@ class AdminSubscriptionNotification extends Mailable
      */
     public function build()
     {
-        return $this->from('support@fitsigma.com')
+        return $this->from('support@grizfit.com')
             ->view('emails.fitsigma_forgot_password', $this->data)
             ->subject($this->data['title']);
     }

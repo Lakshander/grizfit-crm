@@ -9,14 +9,14 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <meta name="description" content="Sign up now and get started for free!" />
-    <meta name="keywords" content="Fitsigma registration, Fitsigma sign up, Fitisgma create account"/>
-    <meta property="og:title" content="Fitsigma - Sign Up" />
+    <meta name="keywords" content="Grizfit registration, Grizfit sign up, Grizfit create account"/>
+    <meta property="og:title" content="Grizfit - Sign Up" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ route('fitsigma.signup') }}" />
 
     <meta property="og:image" content="{{ asset('fitsigma/images/og-image.jpg')}}" />
 
-    <meta property="og:site_name" content="Fitsigma" />
+    <meta property="og:site_name" content="Grizfit" />
     <meta property="og:description" content="Sign up now and get started for free!"/>
     <link rel="canonical" href="{{ route('fitsigma.signup') }}" />
     <meta property="fb:app_id" content="647860132011926"/>

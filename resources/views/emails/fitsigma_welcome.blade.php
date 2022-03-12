@@ -1481,7 +1481,7 @@
                                         <table>
                                             <tr>
                                                 <th>
-                                                    <h1 class="text-center">Welcome to Fitsigma!</h1>
+                                                    <h1 class="text-center">Welcome to Grizfit!</h1>
                                                     <center data-parsed="">
                                                         <img src="{{ asset('ace/images/slider2.jpg') }}" valign="bottom" align="center" class="text-center">
                                                     </center>
@@ -1509,7 +1509,7 @@
                                             <tr>
                                                 <th>
                                                     <b><h5>Welcome!</h5></b>
-                                                    <p>Fitsigma is a gym management software which is developed for the gym/fitness club owners through which they can manage their business on daily basis and cater their customers in a much better way. </p>
+                                                    <p>Grizfit is a gym management software which is developed for the gym/fitness club owners through which they can manage their business on daily basis and cater their customers in a much better way. </p>
                                                     <br>
                                                     <b><h5>Features!</h5></b>
                                                     <table class="features">
@@ -1566,7 +1566,7 @@
                                         <table>
                                             <tr>
                                                 <th>
-                                                    <p class="text-center footercopy">&#xA9; Copyright {{ \Carbon\Carbon::today('Asia/Calcutta')->year }} Fitsigma. All Rights Reserved.</p>
+                                                    <p class="text-center footercopy">&#xA9; Copyright {{ \Carbon\Carbon::today('Asia/Calcutta')->year }} Grizfit. All Rights Reserved.</p>
                                                 </th>
                                                 <th class="expander"></th>
                                             </tr>

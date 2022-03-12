@@ -32,24 +32,24 @@
 
     <title>@yield('title')</title>
     <!-- Bootstrap Core CSS -->
-    {!! HTML::style('fitsigma_customer/bootstrap/dist/css/bootstrap.min.css') !!}
-    {!! HTML::style('fitsigma_customer/bower_components/bootstrap-extension/css/bootstrap-extension.css') !!}
+    {!! HTML::style('grizfit_customer/bootstrap/dist/css/bootstrap.min.css') !!}
+    {!! HTML::style('grizfit_customer/bower_components/bootstrap-extension/css/bootstrap-extension.css') !!}
     <!-- Menu CSS -->
-    {!! HTML::style('fitsigma_customer/bower_components/sidebar-nav/dist/sidebar-nav.min.css') !!}
+    {!! HTML::style('grizfit_customer/bower_components/sidebar-nav/dist/sidebar-nav.min.css') !!}
     <!-- toast CSS -->
-    {{--{!! HTML::style('fitsigma_customer/bower_components/toast-master/css/jquery.toast.css') !!}--}}
+    {{--{!! HTML::style('grizfit_customer/bower_components/toast-master/css/jquery.toast.css') !!}--}}
     <!-- animation CSS -->
-    {!! HTML::style('fitsigma_customer/css/animate.css') !!}
+    {!! HTML::style('grizfit_customer/css/animate.css') !!}
     <!-- Custom CSS -->
-    {!! HTML::style('fitsigma_customer/css/style.css') !!}
+    {!! HTML::style('grizfit_customer/css/style.css') !!}
     <!-- color CSS -->
-    {!! HTML::style('fitsigma_customer/css/colors/default.css') !!}
+    {!! HTML::style('grizfit_customer/css/colors/default.css') !!}
     <!--helper CSS-->
     {!! HTML::style('admin/global/plugins/froiden-helper/helper.css') !!}
-    {!! HTML::style('fitsigma_customer/css/custom.css') !!}
+    {!! HTML::style('grizfit_customer/css/custom.css') !!}
     <style>
         .sidebar #side-menu .user-pro {
-            background: url({{ asset('fitsigma_customer/images/profile-menu.png') }}) center center/cover no-repeat;
+            background: url({{ asset('grizfit_customer/images/profile-menu.png') }}) center center/cover no-repeat;
         }
     </style>
     @yield('CSS')
@@ -80,7 +80,7 @@
             @yield('content')
         </div>
         <!-- /.container-fluid -->
-        <footer class="footer text-center"> {{ \Carbon\Carbon::now()->format('Y') }} &copy; Fitsigma Customer App </footer>
+        <footer class="footer text-center"> {{ \Carbon\Carbon::now()->format('Y') }} &copy; Grizfit Customer App </footer>
     </div>
     <!-- /#page-wrapper -->
 </div>
@@ -132,27 +132,27 @@
 
 <!-- /#wrapper -->
 <!-- jQuery -->
-{!! HTML::script('fitsigma_customer/bower_components/jquery/dist/jquery.min.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/jquery/dist/jquery.min.js') !!}
 <!-- Bootstrap Core JavaScript -->
-{!! HTML::script('fitsigma_customer/bootstrap/dist/js/tether.min.js') !!}
-{!! HTML::script('fitsigma_customer/bootstrap/dist/js/bootstrap.min.js') !!}
-{!! HTML::script('fitsigma_customer/bower_components/bootstrap-extension/js/bootstrap-extension.min.js') !!}
+{!! HTML::script('grizfit_customer/bootstrap/dist/js/tether.min.js') !!}
+{!! HTML::script('grizfit_customer/bootstrap/dist/js/bootstrap.min.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/bootstrap-extension/js/bootstrap-extension.min.js') !!}
 <!-- Menu Plugin JavaScript -->
-{!! HTML::script('fitsigma_customer/bower_components/sidebar-nav/dist/sidebar-nav.min.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/sidebar-nav/dist/sidebar-nav.min.js') !!}
 <!--slimscroll JavaScript -->
-{!! HTML::script('fitsigma_customer/js/jquery.slimscroll.js') !!}
+{!! HTML::script('grizfit_customer/js/jquery.slimscroll.js') !!}
 <!--Wave Effects -->
-{!! HTML::script('fitsigma_customer/js/waves.js') !!}
+{!! HTML::script('grizfit_customer/js/waves.js') !!}
 <!--Counter js -->
-{!! HTML::script('fitsigma_customer/bower_components/waypoints/lib/jquery.waypoints.js') !!}
-{!! HTML::script('fitsigma_customer/bower_components/counterup/jquery.counterup.min.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/waypoints/lib/jquery.waypoints.js') !!}
+{!! HTML::script('grizfit_customer/bower_components/counterup/jquery.counterup.min.js') !!}
 
 <!-- Custom Theme JavaScript -->
-{!! HTML::script('fitsigma_customer/js/custom.min.js') !!}
+{!! HTML::script('grizfit_customer/js/custom.min.js') !!}
 
 <!-- Sparkline chart JavaScript -->
 
-{{--{!! HTML::script('fitsigma_customer/bower_components/toast-master/js/jquery.toast.js') !!}--}}
+{{--{!! HTML::script('grizfit_customer/bower_components/toast-master/js/jquery.toast.js') !!}--}}
 
 <!--Helper Script-->
 {!! HTML::script("admin/global/plugins/froiden-helper/helper.js") !!}

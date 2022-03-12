@@ -1,11 +1,11 @@
 @extends('layouts.customer-app.basic')
 
 @section('title')
-    Fitsigma | Due Payments
+    Grizfit | Due Payments
 @endsection
 
 @section('CSS')
-    {!! HTML::style('fitsigma_customer/bower_components/datatables/jquery.dataTables.min.css') !!}
+    {!! HTML::style('grizfit_customer/bower_components/datatables/jquery.dataTables.min.css') !!}
 @endsection
 
 @section('content')
@@ -47,7 +47,7 @@
 @endsection
 
 @section('JS')
-    {!! HTML::script('fitsigma_customer/bower_components/datatables/jquery.dataTables.min.js') !!}
+    {!! HTML::script('grizfit_customer/bower_components/datatables/jquery.dataTables.min.js') !!}
     <script>
         var table = $('#duePaymentTable');
         table.dataTable({

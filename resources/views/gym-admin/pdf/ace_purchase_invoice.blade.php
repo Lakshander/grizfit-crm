@@ -2,7 +2,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <title>Huntplex Invoice</title>
+    <title>Grizfit Invoice</title>
     <style>
 
         .clearfix:after {

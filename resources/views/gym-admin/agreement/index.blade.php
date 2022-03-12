@@ -85,7 +85,7 @@
                                                     Your use of services offered by Froiden (referred to Services in this document) is subject to the terms of a legal agreement between you and Froiden. This page explains how the agreement is made up, and sets out some of the terms of that agreement (referred as Terms of Service (TOS) in this document).
                                                 </p>
                                                 <p>
-                                                    Froiden provides a platform for businesses called Fitsigma by which Merchant can manage their business.
+                                                    Froiden provides a platform for businesses called Grizfit by which Merchant can manage their business.
                                                 </p>
                                                 <p>
 
@@ -108,7 +108,7 @@
                                                 </h3>
 
                                                 <p>
-                                                    Froiden provides service called Fitsigma to manage day-to-day business work. By using Fitsigma, you agree to all the terms below.
+                                                    Froiden provides service called Grizfit to manage day-to-day business work. By using Grizfit, you agree to all the terms below.
                                                 </p>
                                             </div>
 
@@ -320,7 +320,7 @@
                                                 </h3>
 
                                                 <p>
-                                                    In case of any technical issues, please raise a support ticket by emailing support@fitsigma.com or from your service dashboard to let us know of the same. You can also contact us on 9001021919 in case of urgent matters.
+                                                    In case of any technical issues, please raise a support ticket by emailing support@grizfit.com or from your service dashboard to let us know of the same. You can also contact us on 9001021919 in case of urgent matters.
                                                 </p>
 
 
@@ -332,7 +332,7 @@
                                                 </h3>
 
                                                 <p>
-                                                    In case of any question or complaint email at support@fitsigma.com
+                                                    In case of any question or complaint email at support@grizfit.com
                                                 </p>
                                             </div>
                                             <div class="clearfix"></div>

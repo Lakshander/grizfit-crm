@@ -45,7 +45,7 @@ class AddPaymentNotification extends Notification
         $url = url('/customer');
 
         return (new MailMessage)
-            ->subject( 'Fitsigma Customer App - Payment Notification')
+            ->subject( 'Grizfit Customer App - Payment Notification')
             ->greeting('Hello '.ucwords($notifiable->name).'!')
             ->line('Your payment for the subscription is recorded successfully by admin.')
             ->action('Login To Dashboard', $url)

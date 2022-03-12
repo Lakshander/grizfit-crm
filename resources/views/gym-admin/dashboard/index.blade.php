@@ -168,7 +168,7 @@
                     <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 ">
                         <h4 class="widget-thumb-heading">Total Earning</h4>
                         <div class="widget-thumb-wrap">
-                            <i class="widget-thumb-icon bg-green fa {{ $gymSettings->currency->symbol }}"></i>
+                            <i class="widget-thumb-icon bg-red fa {{ $gymSettings->currency->symbol }}"></i>
                             <div class="widget-thumb-body">
                                 <span class="widget-thumb-subtitle">{{ $gymSettings->currency->acronym }}</span>
                                 <span class="widget-thumb-body-stat" data-counter="counterup" data-value="{{$currentBalance}}">0</span>
@@ -182,7 +182,7 @@
                     <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 ">
                         <h4 class="widget-thumb-heading">Weekly Earning</h4>
                         <div class="widget-thumb-wrap">
-                            <i class="widget-thumb-icon bg-red fa {{ $gymSettings->currency->symbol }}"></i>
+                            <i class="widget-thumb-icon bg-purple fa {{ $gymSettings->currency->symbol }}"></i>
                             <div class="widget-thumb-body">
                                 <span class="widget-thumb-subtitle">{{ $gymSettings->currency->acronym }}</span>
                                 <span class="widget-thumb-body-stat" data-counter="counterup" data-value="{{$weeklySales}}">0</span>
@@ -196,7 +196,7 @@
                     <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 ">
                         <h4 class="widget-thumb-heading">Biggest Purchase</h4>
                         <div class="widget-thumb-wrap">
-                            <i class="widget-thumb-icon bg-purple fa {{ $gymSettings->currency->symbol }}"></i>
+                            <i class="widget-thumb-icon bg-green fa {{ $gymSettings->currency->symbol }}"></i>
                             <div class="widget-thumb-body">
                                 <span class="widget-thumb-subtitle">{{ $gymSettings->currency->acronym }}</span>
                                 <span class="widget-thumb-body-stat" data-counter="counterup" data-value="{{$maxSale}}">0</span>

@@ -98,7 +98,7 @@ class MerchantsController extends MerchantBaseController
 
             $email = Input::get('email');
 
-            $eText = 'This email was sent automatically by Fitsigma in response to your request to recover your password. This is done for your protection. Only you, the recipient of this email can take the next step in the password recover process.';
+            $eText = 'This email was sent automatically by Grizfit in response to your request to recover your password. This is done for your protection. Only you, the recipient of this email can take the next step in the password recover process.';
 
             $this->data['title'] = "Forgot Password";
             $this->data['mailHeading'] = "Reset Password";

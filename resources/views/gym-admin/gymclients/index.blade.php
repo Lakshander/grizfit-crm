@@ -9,7 +9,7 @@
     .table-checkable tr > td:first-child {
         vertical-align: middle;
         text-align: left;
-        padding-left: 5%;
+        /* padding-left: 5%; */
     }
 
 </style>

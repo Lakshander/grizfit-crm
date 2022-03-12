@@ -1,7 +1,7 @@
 @extends('layouts.customer.login')
 
 @section('title')
-    Fitsigma | Customer Register
+    Grizfit | Customer Register
 @endsection
 @section('CSS')
     <style>

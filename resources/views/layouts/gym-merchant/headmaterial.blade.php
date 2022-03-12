@@ -6,7 +6,7 @@
     <meta content="" name="description" />
     <meta content="" name="author" />
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    {!! HTML::style('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all')!!}
+    {!! HTML::style('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all')!!}
     {!! HTML::style("admin/global/plugins/font-awesome/css/font-awesome.min.css") !!}
     {!! HTML::style("admin/global/css/font-awesome-animation.min.css") !!}
 
